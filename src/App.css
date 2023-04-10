@@ -1,0 +1,350 @@
+@font-face {
+    font-family: "Archivo-Regular";
+    src: url("./fonts/Archivo-Regular.ttf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+    --primary: #1B3333;
+    --maroon: #904f60;
+    --white: #fff;
+    --black: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f0f0f0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+/* go to top */
+
+.go-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 15px;
+    background-color: var(--white);
+    color: var(--primary);
+    border-radius: 7px;
+    font-size: 55px;
+    width: 40px;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 99;
+    border: 2px solid var(--primary);
+    -webkit-box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.486);
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.486);
+    -webkit-transition: -webkit-transform 0.3s linear;
+    transition: -webkit-transform 0.3s linear;
+    -o-transition: transform 0.3s linear;
+    transition: transform 0.3s linear;
+    transition: transform 0.3s linear, -webkit-transform 0.3s linear;
+    visibility: hidden;
+    -webkit-transform: translateX(150%);
+    -ms-transform: translateX(150%);
+    transform: translateX(150%);
+}
+
+.arrow-up {
+    font-size: 23px !important;
+}
+
+.show-top {
+    visibility: visible;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+
+
+/*  web loader */
+
+.loader-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 111;
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.fixed-loading-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999999;
+    background-color: rgba(0, 0, 0, 0.048);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.loader {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid var(--primary);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    -webkit-animation: spin 0.5s linear infinite;
+    animation: spin 0.5s linear infinite;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 15px #00000065;
+    box-shadow: 0px 0px 15px #00000065;
+}
+
+.loader-wrapp {
+    margin: 0 auto;
+    background-color: var(--white);
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.152);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.152);
+}
+
+.loader-logo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.loader-logo img {
+    width: 56px;
+    margin-top: -6px;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+/*  */
+
+.showDrp {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.closeDrp {
+    opacity: 0;
+    height: 0;
+    pointer-events: none;
+}
+
+
+/* scroll bar styles */
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 7px
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary)
+}
+
+
+/* coming soon page */
+
+.coming_soon {
+    min-height: 100vh;
+    padding: 135px 0 55px 0;
+    text-align: center;
+}
+
+
+/* general classes */
+
+.cs_container {
+    max-width: 1250px;
+    padding: 0 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.d_flex,
+.cs_row {
+    display: flex;
+}
+
+.flex_column {
+    flex-direction: column;
+}
+
+.justify_content_center {
+    justify-content: center
+}
+
+.justify_content_start {
+    justify-content: flex-start
+}
+
+.justify_content_end {
+    justify-content: flex-end
+}
+
+.align_items_center {
+    align-items: center
+}
+
+.justify_items_start {
+    align-items: flex-start
+}
+
+.justify_items_end {
+    align-items: flex-end
+}
+
+.img_fluid {
+    max-width: 100%;
+    width: auto;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.text_blue {
+    color: #31708e;
+}
+
+.text_blue_dark {
+    color: #2e528f;
+}
+
+.text_dark {
+    color: var(--black);
+}
+
+.text_light {
+    color: var(--white);
+}
+
+.text_primary {
+    color: var(--primary);
+}
+
+.text_center {
+    text-align: center;
+}
+
+.text_start {
+    text-align: left;
+}
+
+.text_end {
+    text-align: right;
+}
+
+.sec_heading {
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-family: "Bebas Neue", cursive;
+    letter-spacing: 2px;
+    margin: 14px auto;
+}
+
+.img_fluid {
+    max-width: 100%;
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1500px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cs_container {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 12px;
+    }
+}

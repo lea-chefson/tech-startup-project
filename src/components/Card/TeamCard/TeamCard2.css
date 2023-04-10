@@ -1,0 +1,178 @@
+@import "https://c.ekstatic.net/shared/fonts/iconography/iconography.css";
+
+.skw-outer {
+  position: relative;
+  max-width: 550px;
+  margin: 50px auto;
+  transition: height 0.5s ease;
+}
+
+.skw-summary {
+  background-color: #fff;
+  box-shadow: 0 2px 4px 2px rgb(0 0 0 / 10%);
+  position: relative;
+  min-height: 80px;
+  min-width:550px;
+  box-sizing:border-box;
+  border-radius: 3px;
+  border-radius:0px 0px 10px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.skw-details {
+  margin-bottom: 8px;
+  padding: 0px 24px 10px 24px;;
+  box-sizing: border-box;
+  transition: all 0.4s ease;
+}
+
+.skw-coin {
+  height: 140px;
+  width: 140px;
+  position: absolute;
+  background: var(--primary);
+  top: 20px;
+  border-radius: 100%;
+  transition: all 0.4s ease;
+  transform-origin: left center;
+  z-index: 1;
+  left: 24px;
+  border: 10px solid #fff;
+}
+
+.skw-coin img{
+    height: 100%;
+    width: 100%;
+border-radius: 50%;
+}
+
+button.icon {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -20px;
+  background: #fff;
+  border: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  color: #376F70;
+  box-shadow: 0 1px 0 0px rgb(0 0 0 / 10%);
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 1;
+  border: 3px solid #376F70aa;
+}
+
+.skw-details span {
+  display: block;
+  margin-top: 16px;
+  height: 18px;
+  font-weight:600;
+}
+
+
+.skw-outer.expanded .skw-coin {
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  top: 30px;
+  border: 8px solid #fff;
+}
+
+.fold {
+  height: 75px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.skw-outer.expanded .skw-details {
+  padding-top: 10px;
+}
+.skw-outer.expanded .fold {
+  height: 280px; /* apply the inline height from JS, this height is for reference only*/
+}
+
+button.icon:before {
+  top: 4px;
+  position: relative;
+}
+
+.skw-outer.expanded button.icon {
+  transform: translate(-50%) rotate(180deg);
+  box-shadow: 0 -1px 0 0px rgb(0 0 0 / 10%);
+}
+
+.skw-outer.expanded button.icon:before {
+  top: 0;
+}
+
+.bg {
+  height: 110px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='250' preserveAspectRatio='none' viewBox='0 0 1440 250'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1318%26quot%3b)' fill='none'%3e%3crect width='1440' height='250' x='0' y='0' fill='url(%23SvgjsLinearGradient1319)'%3e%3c/rect%3e%3cpath d='M40 250L290 0L465.5 0L215.5 250z' fill='url(%23SvgjsLinearGradient1320)'%3e%3c/path%3e%3cpath d='M254.60000000000002 250L504.6 0L626.1 0L376.1 250z' fill='url(%23SvgjsLinearGradient1320)'%3e%3c/path%3e%3cpath d='M514.2 250L764.2 0L930.7 0L680.7 250z' fill='url(%23SvgjsLinearGradient1320)'%3e%3c/path%3e%3cpath d='M756.8000000000001 250L1006.8000000000001 0L1320.3000000000002 0L1070.3000000000002 250z' fill='url(%23SvgjsLinearGradient1320)'%3e%3c/path%3e%3cpath d='M1435 250L1185 0L984 0L1234 250z' fill='url(%23SvgjsLinearGradient1321)'%3e%3c/path%3e%3cpath d='M1167.4 250L917.4000000000001 0L869.4000000000001 0L1119.4 250z' fill='url(%23SvgjsLinearGradient1321)'%3e%3c/path%3e%3cpath d='M957.8 250L707.8 0L391.29999999999995 0L641.3 250z' fill='url(%23SvgjsLinearGradient1321)'%3e%3c/path%3e%3cpath d='M718.1999999999999 250L468.19999999999993 0L169.69999999999993 0L419.69999999999993 250z' fill='url(%23SvgjsLinearGradient1321)'%3e%3c/path%3e%3cpath d='M1190.9910165579438 250L1440 0.9910165579437091L1440 250z' fill='url(%23SvgjsLinearGradient1320)'%3e%3c/path%3e%3cpath d='M0 250L249.0089834420563 250L 0 0.9910165579437091z' fill='url(%23SvgjsLinearGradient1321)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1318'%3e%3crect width='1440' height='250' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='50%25' x2='100%25' y2='50%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1319'%3e%3cstop stop-color='rgba(27%2c 51%2c 51%2c 0.943)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(56%2c 112%2c 113%2c 0.999)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1320'%3e%3cstop stop-color='rgba(27%2c 51%2c 51%2c 0.943)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(27%2c 51%2c 51%2c 0.943)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1321'%3e%3cstop stop-color='rgba(27%2c 51%2c 51%2c 0.943)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(27%2c 51%2c 51%2c 0.943)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-size: cover;
+  transition: all 0.5s ease;
+  border-radius:10px 10px 0px 0px;
+}
+
+.bg h1{
+  color:white;
+  text-align: end;
+  padding-right:40px;
+  padding-top:25px;
+  font-size:1.8rem;
+  transition: all 0.5s ease;;
+}
+
+.bg h5{
+  color:#B3D8DE;
+  text-align: end;
+  padding-right:40px;
+  font-size:1.2rem;
+  font-weight:500;
+  font-style: italic;
+  transition: all 0.5s ease;;
+}
+
+.skw-outer.expanded .bg {
+  height: 130px;
+}
+
+.skw-outer.expanded .bg h1{
+  font-size:2rem;
+}
+
+.skw-outer.expanded .bg h5{
+  font-size:1.4rem;
+}
+
+.icon_div{
+  text-align:end;
+  margin-top:10px;
+  margin-right:10px;
+}
+
+.icon_row{
+  text-align:end;
+  font-size:1.7rem;
+  color:#894453 ;
+  margin:0px 10px 0px 10px
+}
+
+
+.icon_row :hover{
+  color:#2E151B
+}
+
+
+@media screen and (max-width: 957px) {
+    .skw-outer {
+        max-width: 90vw;
+      }
+
+      .skw-summary {
+        min-width: 90vw;
+      }
+
+
+}

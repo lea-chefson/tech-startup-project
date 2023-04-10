@@ -1,0 +1,143 @@
+.team_card {
+    width: 49%;
+    display: flex;
+    margin: 25px 0 25px 0;
+    padding: 16px;
+    overflow: hidden;
+    background-color: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(20, 20, 20, 0.267);
+    position: relative;
+    border-left: 2px solid var(--primary);
+    transition: all 0.3s linear;
+}
+
+.team_card:hover {
+    box-shadow: 0 0 18px rgba(0, 0, 0, 0.596);
+}
+
+.team_card::after {
+    position: absolute;
+    bottom: 17px;
+    right: -56px;
+    background-color: var(--primary);
+    width: 120px;
+    height: 6px;
+    content: '';
+    transform: rotate(138deg)
+}
+
+.tleft {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tleft>div {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 15px;
+    /* justify-content: space-between; */
+}
+
+.tleft img {
+    border-radius: 50%;
+    width: 160px;
+    object-fit: contain;
+}
+
+.tleft div a {
+    margin: 0 6px;
+}
+
+.tleft div i {
+    font-size: 1.3rem;
+    color: #2f4454;
+}
+
+.tright {
+    display: flex;
+    flex-direction: column;
+    padding: 0 12px 0 17px;
+    width: 100%;
+}
+
+.tright h1 {
+    font-size: 2rem;
+    color: #d9b08c;
+}
+
+.tright h6 {
+    font-size: 1.2rem;
+    color: #8797a7;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.tright p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.team_desc {
+    padding: 7px 0;
+    margin-bottom: 8px;
+    height: 90px;
+    transition: all 0.3s linear;
+    overflow: hidden;
+}
+
+.team_desc.expended {
+    height: auto;
+}
+
+.expand_btn {
+    border: none;
+    padding: 4px 0 4px 16px;
+    background-color: transparent;
+    cursor: pointer;
+    margin: auto 0 4px auto;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2f4454;
+}
+
+@media screen and (max-width: 767px) {
+    .team_card {
+        width: 100%;
+        margin: 16px auto 16px auto;
+        padding: 13px 9px;
+    }
+    .tleft {
+        width: auto;
+    }
+    .tleft img {
+        width: 130px;
+    }
+    .tright {
+        flex: 1;
+        padding: 0 9px 0 9px;
+    }
+    .tright h1 {
+        font-size: 1.4rem;
+    }
+    .tright h6 {
+        font-size: 1rem;
+    }
+    .tright p {
+        font-size: .88rem;
+        margin: 8px 0;
+    }
+    .team_desc {
+        margin-bottom: 6px;
+        height: 93px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .team_card {
+        flex-direction: column;
+    }
+}
