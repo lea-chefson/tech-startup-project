@@ -1,0 +1,337 @@
+.c_hero {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("https://consumotic.mx/wp-content/uploads/2021/01/mujer-y-mundo-digital-scaled-e1611797673384.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position:relative;
+}
+
+.c_hero .overlay {
+    background: #00000027;
+    padding-top:120px;
+    height: 100%;
+    min-height: 100%;
+    display:flex;
+    justify-content: flex-start;
+}
+
+.c_content h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #213d3d;
+}
+
+.c_content p {
+    max-width: 550px;
+    color: #2d5a5b;
+    margin-bottom: 20px;
+    font-weight:700;
+}
+
+.c_content button {
+    background-color: #213d3d;
+    padding: 10px 15px;
+    border-radius:10px;
+    font-family: "Frutiger_bold";
+    font-size: 1.2rem;
+    border: 1px solid transparent;
+    color: white;
+}
+
+.c_content a {
+    text-decoration: none;
+    background-color: #213d3d;
+    padding: 10px 15px;
+    border-radius:10px;
+    font-family: "Frutiger_bold";
+    font-size: 1.2rem;
+    border: 1px solid transparent;
+    color: white;
+}
+
+#form{
+    scroll-margin-top: 150px;}
+
+.c_content a:hover{
+    color:rgb(137, 68, 83);
+}
+
+.contact{
+    background: linear-gradient(45deg,#1b3333ee,#2F4455 ,#387071ee);
+    padding-bottom:40px;
+}
+
+.contact_form {
+    margin: 100px auto 55px auto;
+}
+
+.cf_left {
+    width: 70%;
+}
+
+.cf_left form {
+    background-color: #fff;
+    border-radius: 10px 0px 0px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.cf_left form label {
+    color: var(--black);
+    margin-bottom: 10px;
+    opacity: 0.6;
+    font-weight:800;
+}
+
+.cf_left form .cs_row {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cf_left form .form_group {
+    width: 49%;
+}
+
+.cf_left form input,
+.cf_left textarea {
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.459);
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 8px;
+}
+
+.cf_left textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid transparent;
+    outline: none;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%), 0 0 8px rgb(102 175 233 / 60%);
+}
+
+.cf_right {
+    width: 30%;
+    padding: 40px 20px;
+    background:linear-gradient( 45deg,#2E151B,#894453);
+    border-radius:0px 10px 10px 0px;
+}
+
+.cf_right>div {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.cf_right>.invert img {
+    margin-right: 20px;
+    width: 25px;
+    margin-top: 5px;
+    object-fit: contain;
+    filter:invert(1)
+}
+
+.cf_right>div img{
+    height:25px;
+}
+
+.icons_right a{
+    margin:6px;
+    margin-top:15px
+}
+
+.icons_right a:hover{
+    filter:invert(1)
+}
+
+.cf_right>div div {
+    color: #fff;
+    display: flex;
+    opacity: 0.8;
+    font-size: 1rem;
+    font-weight: 400;
+    flex-direction: column;
+}
+
+.submit_button{
+        margin:auto;
+         margin-top:12px;
+         background:linear-gradient( 45deg,#2E151B,#894453);
+         color:#f0f0f0;
+         font-size:1.2rem;
+}
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    .c_hero .overlay{
+        padding-top:10vh;
+    }
+
+    .c_content{
+        width:90%;
+        margin:auto;
+        margin-top:2vh;
+    }
+    .contact_form {
+        margin: 40px auto 25px auto;
+        flex-wrap: wrap;
+    }
+    .cf_left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .cf_right {
+        width: 100%;
+        padding: 20px 10px;
+        border-radius: 12px;
+    }
+    .cf_left form {
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .cf_left form .cs_row {
+        flex-wrap: wrap;
+    }
+    .cf_left form .form_group {
+        width: 100%;
+    }
+    .cf_left form input,
+    .cf_left textarea {
+        font-size: 15px;
+    }
+    /*  */
+    .c_hero {
+        min-height: 100vh;
+        padding-top: 0;
+}
+
+}
+
+.social-icons2 {
+    max-width: 980px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: row;
+    margin-top:48vh;
+    filter:saturate(0.5)
+  }
+  .iconz {
+    float: right;
+    position: relative;
+    width: 5%;
+    height: 0;
+padding:20px;
+    margin: 1% 3%;
+  }
+
+  ::marker{
+    opacity:0;
+    color:transparent;
+  }
+
+
+
+  .iconz:last-of-type {
+    margin-right: 0;
+  }
+  .iconz a {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 10px;
+    background-color: #fff;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: all 0.2s ease-out;
+    box-shadow: rgba(203, 7, 49, 0.4) -5px 5px, rgba(141, 14, 42, 0.3) -10px 10px, rgba(143, 31, 31, 0.2) -15px 15px, rgba(240, 46, 46, 0.1) -20px 20px, rgba(240, 46, 46, 0.05) -25px 25px;
+  }
+  .iconz a:hover {
+    background-color: #222;
+    background-size: 0%;
+    transition: all 0.2s ease-out;
+  }
+  .icon__name {
+    position: absolute;
+    top: 20%;
+    left:10%;
+    width: 50%;
+    margin-top: -2px;
+    color: #fff;
+    font-size: 9px;
+    text-align: center;
+    transition: all 0.3s ease-out;
+    opacity: 0;
+    filter: blur(25px);
+    transform: translateZ(0);
+    will-change: transform;
+  }
+  .iconz:hover .icon__name {
+    transition: all 0.3s ease-out;
+    opacity: 1;
+    filter: blur(0);
+  }
+  .icon--facebook a {
+    background-color: #213d3d;
+    background-image: url('https://www.svgrepo.com/show/157818/facebook.svg');
+  }
+  .icon--twitter a {
+    background-color: #213d3d;
+    background-image: url('https://www.svgrepo.com/show/97434/twitter.svg');
+  }
+  .icon--linkedin a {
+    background-color: #213d3d;
+    background-image: url('https://benhodgson.net/img/social/linkedin.svg');
+  }
+  .icon--instagram a {
+    background-color: #213d3d;
+    background-image: url('https://www.svgrepo.com/show/157806/instagram.svg');
+  }
+  .icon--reddit a {
+    background-color: #213d3d;
+    background-image: url('https://www.svgrepo.com/show/349489/reddit.svg');
+  }
+  .icon--discord a {
+    background-color: #213d3d;
+    background-image: url('https://www.svgrepo.com/show/353655/discord-icon.svg');
+  }
+  .icon--youtube a {
+    background-color: #213d3d;
+    background-image: url('https://www.svgrepo.com/show/103204/youtube.svg');
+  }
+
+  @media screen and (max-width: 900px){
+    .social-icons2{
+        margin-top:2vh;
+        flex-direction:column;
+    }
+    .iconz {
+      width: 15px;
+      height:15px;
+      padding:12px;
+      padding-bottom: 9%;
+      margin:10px;
+    }
+
+    .iconz a {
+        width:40px;
+        height:40px;
+    }
+  }
+  
