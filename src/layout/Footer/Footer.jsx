@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="cs_container">
           <div className="cs_row footer_row">
             <div className="footer_left">
-              <img src={logo} alt="Crypteco" />
+              <img src={logo} alt="Techapp" />
             </div>
             <div className="footer_nav_col">
               <h4>Site Map</h4>
@@ -32,13 +32,13 @@ const Footer = () => {
                   <Link to="/whoweare">Who we are</Link>
                 </li>
                 <li>
-                  <Link to="/business/gaiaswap">GAIASWAP </Link>
+                  <Link to="/business/gaiaswap">TechSWAP </Link>
                 </li>
                 <li>
                   <Link to="/news-blog">News & Blogs</Link>
                 </li>
                 <li>
-                  <Link to="/business/ecoInvestments">Eco-Investments</Link>
+                  <Link to="/business/ecoInvestments">Tech-Investments</Link>
                 </li>
                 <li>
                   <Link to="/contact">Contact</Link>
