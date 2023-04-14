@@ -11,7 +11,7 @@ import Contact from "./pages/Contact";
 import techswap from "./pages/Techswap";
 import TechInvestment from "./pages/TechInvestment";
 import { useEffect } from "react";
-import mainLogo from "./assets/images/logo2.jpg";
+import mainLogo from "./assets/images/logo.png";
 import ComingSoon from "./components/ComingSoon";
 
 

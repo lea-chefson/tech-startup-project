@@ -12,7 +12,7 @@ import sec6Img from "../../assets/images/section6.png";
 import tsLogo from "../../assets/images/techswapLogo.png";
 import blockchainLogo from "../../assets/images/blockchainLogo.png";
 //
-import mainLogo from "../../assets/images/logo2.jpg";
+import mainLogo from "../../assets/images/logo.png";
 
 const Home = () => {
   return (
