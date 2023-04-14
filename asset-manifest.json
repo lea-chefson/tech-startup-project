@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/lea-chefson/tech-startup-project.git/static/css/main.e5a072c9.css",
+    "main.js": "/lea-chefson/tech-startup-project.git/static/js/main.d47122bf.js",
+    "static/media/mainVideo.mp4": "/lea-chefson/tech-startup-project.git/static/media/mainVideo.a13884c69cc80d989d26.mp4",
+    "static/media/section6.png": "/lea-chefson/tech-startup-project.git/static/media/section6.c7c6d4f3c230edae9176.png",
+    "static/media/section5.png": "/lea-chefson/tech-startup-project.git/static/media/section5.c182fba3a6c33fe46c07.png",
+    "static/media/section2.png": "/lea-chefson/tech-startup-project.git/static/media/section2.ebe6ac0f008d018e3350.png",
+    "static/media/section4.png": "/lea-chefson/tech-startup-project.git/static/media/section4.862db38b48816a4bf315.png",
+    "static/media/section3.png": "/lea-chefson/tech-startup-project.git/static/media/section3.6f31b3e0c3a535a7c1ea.png",
+    "static/media/blockchainLogo.png": "/lea-chefson/tech-startup-project.git/static/media/blockchainLogo.f17266394c5fdf6f49e1.png",
+    "static/media/team3.png": "/lea-chefson/tech-startup-project.git/static/media/team3.fa340c971a267fc00aca.png",
+    "static/media/team2.png": "/lea-chefson/tech-startup-project.git/static/media/team2.2244ae111c47267b11f9.png",
+    "static/media/team1.png": "/lea-chefson/tech-startup-project.git/static/media/team1.6882738c478d793f131b.png",
+    "static/media/logo.png": "/lea-chefson/tech-startup-project.git/static/media/logo.4cf125451e066404c458.png",
+    "static/media/onlyLogo.png": "/lea-chefson/tech-startup-project.git/static/media/onlyLogo.41cfc8c17ba6e8c1f42a.png",
+    "static/media/partner4.png": "/lea-chefson/tech-startup-project.git/static/media/partner4.70fd9c90e39106ef2bf5.png",
+    "static/media/teambg.jpg": "/lea-chefson/tech-startup-project.git/static/media/teambg.7645df03fdddf17e5472.jpg",
+    "static/media/partner1.png": "/lea-chefson/tech-startup-project.git/static/media/partner1.47b7b508bca204b44fd0.png",
+    "static/media/partner5.png": "/lea-chefson/tech-startup-project.git/static/media/partner5.ded651abce7d0fb9f1d6.png",
+    "static/media/partner2.png": "/lea-chefson/tech-startup-project.git/static/media/partner2.1940561c6c5c52be7e98.png",
+    "static/media/partner3.png": "/lea-chefson/tech-startup-project.git/static/media/partner3.943ce50726ab55deaef4.png",
+    "static/media/Archivo-Regular.ttf": "/lea-chefson/tech-startup-project.git/static/media/Archivo-Regular.966d9d4d45a09d520c4f.ttf",
+    "static/media/techswapLogo.png": "/lea-chefson/tech-startup-project.git/static/media/techswapLogo.bd0a122114d7e4971137.png",
+    "static/media/money_bags.png": "/lea-chefson/tech-startup-project.git/static/media/money_bags.4e7601967c8238bf4c58.png",
+    "static/media/slick.svg": "/lea-chefson/tech-startup-project.git/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/lea-chefson/tech-startup-project.git/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/lea-chefson/tech-startup-project.git/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/lea-chefson/tech-startup-project.git/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/lea-chefson/tech-startup-project.git/index.html",
+    "main.e5a072c9.css.map": "/lea-chefson/tech-startup-project.git/static/css/main.e5a072c9.css.map",
+    "main.d47122bf.js.map": "/lea-chefson/tech-startup-project.git/static/js/main.d47122bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5a072c9.css",
+    "static/js/main.d47122bf.js"
+  ]
+}
