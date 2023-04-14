@@ -46,14 +46,7 @@ const NewsBlog = () => {
             </Zoom>
             <Fade bottom duration={1000} delay={200}>
               <p>
-                Impact Solar has invested and installed a solar rooftop at SB
-                Design Square Ratchapruek branch facility with a total capacity
-                of 408 kW in Bang Kruay, Nonthaburi province, which now is
-                already commenced a commercial operation and start selling the
-                electricity through our initiative "Private PPA" program on 29th
-                December 2018. The system can generate 607,600 units of
-                electricity per annual while reduce 344 metric tons per year of
-                carbon dioxide.
+              The Grand Museum of Art has recently opened its doors to the public, showcasing an impressive collection of contemporary and classical artworks from around the world. With over 10,000 square meters of exhibition space and more than 1,000 pieces on display, the museum offers a rich cultural experience for visitors of all ages. The grand opening ceremony was attended by local and international dignitaries, including prominent artists, curators, and collectors. The museum is expected to attract millions of visitors annually and become a leading destination for art enthusiasts from around the globe.
               </p>
             </Fade>
           </div>
