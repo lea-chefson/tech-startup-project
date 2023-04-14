@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter, Route,useLocation, Switch, Routes } from 'react-router-dom';
 import "./App.css";
 import Footer from "./layout/Footer/Footer";
 import { AnimatePresence } from "framer-motion";
@@ -26,6 +26,7 @@ function App() {
   },[]);
   return (
     <>
+       <BrowserRouter basename="/tech-startup-project">
       <Header />
       <AnimatePresence exitBeforeEnter initial={false}>
         <Routes>
@@ -39,6 +40,7 @@ function App() {
         </Routes>
       </AnimatePresence>
       <Footer />
+      </BrowserRouter>
       <GoToTop/>
       <Loader />
       <ScrollToTopRoutes/>
