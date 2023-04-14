@@ -1,5 +1,6 @@
-import { BrowserRouter, Route,useLocation, Switch, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, useLocation, Switch, Routes } from "react-router-dom";
 import "./App.css";
+import React from "react";
 import Footer from "./layout/Footer/Footer";
 import { AnimatePresence } from "framer-motion";
 import Header from "./layout/Header/Header";
@@ -27,23 +28,32 @@ function App() {
   return (
     <>
        <BrowserRouter basename="/tech-startup-project">
-      <Header />
-      <AnimatePresence exitBeforeEnter initial={false}>
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/whoweare" element={<WhoWeAre />}></Route>
-          <Route path="/news" element={<News />}></Route>
-          <Route path="/news-blog/:id" element={<NewsBlog />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
-          <Route path="/business/techswap" element={<ComingSoon pageTitle="TECHSWAP" />}></Route>
-          <Route path="/business/techInvestments" element={<ComingSoon pageTitle="Tech-Investments" />}></Route>
-        </Routes>
-      </AnimatePresence>
-      <Footer />
-      </BrowserRouter>
-      <GoToTop/>
+        <Header />
+        <ScrollToTopRoutes />
+        <AnimatePresence exitBeforeEnter initial={false}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/whoweare" element={<WhoWeAre />} />
+            <Route path="/news" element={<News />} />
+            <Route path="/news-blog/:id" element={<NewsBlog />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/business/techswap" element={<ComingSoon pageTitle="TECHSWAP" />} />
+            <Route
+              path="/business/techInvestments"
+              element={<ComingSoon pageTitle="Tech-Investments" />}
+            />
+          
+          </Routes>
+        </AnimatePresence>
+        <Footer />
+     
+      
+        </BrowserRouter>
+        <GoToTop />
+      
       <Loader />
-      <ScrollToTopRoutes/>
+     
+      
     </>
   );
 };
