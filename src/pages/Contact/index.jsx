@@ -8,8 +8,10 @@ import instagram from "../../assets/icons/instagramMini.png";
 import twitter from "../../assets/icons/twitterMini.png";
 import reddit from "../../assets/icons/redditMini.png";
 import discord from "../../assets/icons/discordMini.png";
-import Letter from "./Letter";
 import { autocompleteClasses } from "@mui/material";
+
+
+
 const Contact = () => {
   return (
     <main>
