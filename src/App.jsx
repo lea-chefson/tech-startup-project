@@ -8,8 +8,8 @@ import News from "./pages/News";
 import NewsBlog from "./pages/News/NewsBlog";
 import WhoWeAre from "./pages/WhoWeAre";
 import Contact from "./pages/Contact";
-import Gaiaswap from "./pages/Gaiaswap";
-import EcoInvestment from "./pages/EcoInvestment";
+import techswap from "./pages/Techswap";
+import TechInvestment from "./pages/TechInvestment";
 import { useEffect } from "react";
 import mainLogo from "./assets/images/logo2.jpg";
 import ComingSoon from "./components/ComingSoon";
@@ -34,8 +34,8 @@ function App() {
           <Route path="/news" element={<News />}></Route>
           <Route path="/news-blog/:id" element={<NewsBlog />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
-          <Route path="/business/gaiaswap" element={<ComingSoon pageTitle="GAIASWAP" />}></Route>
-          <Route path="/business/ecoInvestments" element={<ComingSoon pageTitle="Eco-Investments" />}></Route>
+          <Route path="/business/Techswap" element={<ComingSoon pageTitle="TECHSWAP" />}></Route>
+          <Route path="/business/techInvestments" element={<ComingSoon pageTitle="Tech-Investments" />}></Route>
         </Routes>
       </AnimatePresence>
       <Footer />

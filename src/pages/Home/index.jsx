@@ -2,15 +2,14 @@ import "./style.css";
 import Hero from "./Hero";
 import Slider from "./Partners_slider";
 import ControlledAccordions from "./collapse";
-import Contentsec1 from "./Contentsec1";
+import Content from "./Content";
 // 
 import sec2Img from "../../assets/images/section2.png";
 import sec3Img from "../../assets/images/section3.png";
 import sec4Img from "../../assets/images/section4.png";
 import sec5Img from "../../assets/images/section5.png";
 import sec6Img from "../../assets/images/section6.png";
-import gsLogo from "../../assets/images/GaiaSwapLogo.jpg";
-import cryptLogo from "../../assets/images/web_logo.png";
+import tsLogo from "../../assets/images/techswapLogo.png";
 import blockchainLogo from "../../assets/images/blockchainLogo.png";
 //
 import mainLogo from "../../assets/images/logo2.jpg";
@@ -19,165 +18,88 @@ const Home = () => {
   return (
     <main>
       <Hero />
-      <Contentsec1
-        title="What is Crypteco?"
+      <Content
+        title="What is TECHAPP?"
         bgImg={mainLogo}
         logo={mainLogo}
         para={
           <>
             <p >
-              <p class="crypt_intro_1">
-              Crypteco was formed by a team of sustainability and blockchain
-              technology experts, with a combined 50 years’ experience in these
-              respective industries.</p>
+              <p class="tech_intro_1">
+              Welcome to TECHAPP, a platform dedicated to providing innovative solutions and tools for businesses and organizations to streamline their workflow and boost productivity in the digital age.</p>
               <br />
               <p  class="first_row first_column">
               <p>
-              By applying their expertise and passion for sustainability,
-              Crypteco have created their initial offering by merging these
-              industries through their <span class="gaiaswap_hl">GaiaSwap</span> platform which is a global first
-              all in one dedicated eco-commodity trading platform. With <span class="gaiaswap_hl">GaiaSwap </span> 
-               in alliance with partnerships with industry leaders of tradable
-              eco-commodities we are able to create a fully accessible and
-              instantaneous trading tool for Carbon Credits, Renewable Energy
-              Credits, Green Bonds, Plastic Recycling Credits and Ecological
-              Restoration Credits.</p>
-              <img src={gsLogo} alt="crypteco logo" id="gaiaswap_logo"></img>
+              Our platform offers a wide range of services, including project management tools, cloud storage solutions, team collaboration features, and automation tools. With our user-friendly interface, you can easily manage projects, assign tasks to team members, and monitor progress in real-time.</p>
+              <img src={tsLogo} alt="techswap logo" id="techswap_logo"></img>
               </p>
             </p>
             <br />
             <p class="first_row ">
             <img src={blockchainLogo} alt="blockchain illustration" id="blockchain_logo"></img>
-              Utilizing the leading blockchain technology the platform offers a
-              fully scalable and real-time traceability platform on the Ethereum
-              Main net allowing a multitude of industries to feasibly achieve
-              their sustainability targets and provide much needed funding for
-              additional climate action.
+            At TECHAPP, we understand the importance of data security and privacy, which is why we implement the latest encryption technology to protect your sensitive information. Our platform also offers reliable cloud storage solutions, so you can access your files anytime, anywhere.
             </p>
           </>
         }
       />
        <ControlledAccordions
-      title="The Problem"
+      title="Section 1"
       bgImg={sec2Img} 
       ml="10vw"
       bg_color="linear-gradient(45deg,#1B3333ee,#2F4455 ,#376F70ee)"
       para={
         <>
           <p>
-            Our future depends on the decisions we make today. We see
-            encouraging signs of real change and initiative occurring daily on
-            combating our biggest common threat – Climate Change; however, the
-            task at hand requires a collective effort at a larger level.
-          </p>
-          
-          <p>
-            Crypteco believe that through a combination of their solutions,
-            technology and strategic partnerships we can become a global
-            leader in the trading of Eco-commodities and provide much needed
-            direction and funding for sustainability with a view of creating
-            lasting positive impacts on the environment, communities and
-            thereby business.
+          The history of the Olympic Games is a long and fascinating one, dating back to ancient Greece. Today, the Olympics represent the pinnacle of athletic achievement, with athletes from around the world competing in a variety of sports, from track and field to gymnastics to swimming. The Games bring together people from different cultures and backgrounds, celebrating the power of sportsmanship and camaraderie.
           </p>
         </>
       }
       />
       <ControlledAccordions
-       title="The Solution"
+       title="Section 2"
        bgImg={sec3Img}
        ml="25vw"
        format="section4"
        para={
          <>
            <p>
-             Eco-commodity credits provide individuals, businesses, and large
-             organizations the opportunity to offset their negative impacts on
-             the environment. Regulations and penalties ensure that negative
-             impacts are penalized and force accountability and off-setting
-             measures for their activities by creating purchasable credits that
-             can used to reduce their impacts. These credits when purchased
-             create much needed funding that can be directed into actual
-             climate action.
-           </p>            
-           <p>
-             Crypteco through implementation of their GAIASWAP platform can
-             provide the largest accessible volume of these credits and direct
-             the funding into their Eco-investment initiatives where Crypteco
-             uses the funding to direct to further sustainability measures and
-             technology creating an ecosystem whereby additional credits are
-             created from these investments and can be re-circulated through
-             their GAIASWAP platform.
-             <br />
-             <br />
-             Ultimately Crypteco ensure that the Eco-commodity market WILL fund
-             Climate action!
+           The human brain is one of the most complex and fascinating organs in the body. It controls our thoughts, emotions, and behaviors, and it is capable of incredible feats of learning and adaptation. Scientists continue to study the brain to better understand its functions and unlock its mysteries, paving the way for new treatments and therapies for neurological disorders.
            </p>
          </>
        }
        />
             <ControlledAccordions
-        title="Our Mission"
+        title="Section 3"
         bgImg={sec4Img}
         ml="40vw"
         para={
           <>
             <p>
-              Our mission is to have a positive contribution towards a
-              sustainable future for all.
-           <br />
-           <br />
-              We believe there is no greater cause than protecting all aspects
-              of our environment and dedicating our efforts to positive climate
-              action. Our mission is two-fold with initial efforts through the
-              GAIASWAP platform to create an all in one globally accessible
-              platform by which all Eco-type commodities can be readily accessed
-              and traded offering the highest potential for all to achieve their
-              sustainability targets.
-            </p>
-            <p>
-              Beyond that our mission will be to fund further climate action
-              through partnerships, sponsorships and eco-investments into
-              appropriate projects with proven benefits to our environment.
+            The art of origami has been a traditional Japanese craft for centuries, and it has gained popularity all around the world. This paper-folding technique requires patience, precision, and creativity, and it can be used to create intricate and beautiful designs, from simple animals to complex geometric shapes.
             </p>
           </>
         }
       />
       <ControlledAccordions
         bgImg={sec5Img}
-        title="Our Vision"
+        title="Section 4"
         ml="55vw"
         format="section4"
         para={
           <>
             <p>
-              Our future depends on the decisions we make today. We see
-              encouraging signs of real change and initiative occurring daily on
-              combating our biggest common threat – Climate Change; however, the
-              task at hand requires a collective effort at a larger level.
-            </p>
-            
-            <p>
-              Crypteco believe that through a combination of their solutions,
-              technology and strategic partnerships we can become a global
-              leader in the trading of Eco-commodities and provide much needed
-              direction and funding for sustainability with a view of creating
-              lasting positive impacts on the environment, communities and
-              thereby business.
+            The world's oceans are home to a rich diversity of marine life, from colorful fish and coral reefs to massive whales and sharks. These vast bodies of water are also essential to the health of our planet, regulating the climate, producing oxygen, and providing a vital source of food and livelihood for millions of people around the world.
             </p>
           </>
         }
       />
       <ControlledAccordions
         bgImg={sec6Img}
-        title="Our Values"
+        title="Section 5"
         ml="70vw"
         para={
           <p>
-            At Crypteco, we provide strategic solutions and tools by which can
-            facilitate multiple entities in achieving their sustainability goals
-            through both real-world solutions using our blockchain platform
-            'GAIASWAP' and by directing much needed funding to align with the
-            goals of the Paris climate agreement.
+           The world of fashion is constantly evolving, with new trends and styles emerging every season. From haute couture to streetwear, designers and fashionistas alike are always on the lookout for the next big thing. Fashion is a form of self-expression, allowing individuals to showcase their unique personality and sense of style to the world.
           </p>
         }
       />

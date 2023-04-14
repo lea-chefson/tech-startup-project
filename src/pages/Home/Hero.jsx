@@ -1,9 +1,5 @@
 import homeVideo from "../../assets/videos/mainVideo.mp4";
 import logo from "../../assets/images/logo.png";
-import { Button } from "@mui/material";
-import { Link } from "react-router-dom";
-import { AiOutlineCaretDown } from "react-icons/ai";
-import Slider from "react-slick";
 import SimpleSlider from "./slicker";
 
 

@@ -21,7 +21,7 @@ export default function SimpleSlider() {
    <Slider {...settings}>
               <div className="slide">
               <p className="fade-in slideHero">
-        Sustainability and Blockchain technology experts working towards a sustainable future for all.
+              Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
         </p>
         <div className="button-row fade-in">
           <Button variant="contained"><a href="#ancre">Discover More <AiOutlineCaretDown className="icon"/></a></Button>
@@ -30,7 +30,7 @@ export default function SimpleSlider() {
               <div className="slide">
                   <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
                   <div className="button-row fade-in">
-          <Button variant="contained"><a href="#ancre">GaiaSwap</a></Button>
+          <Button variant="contained"><a href="#ancre">TechSwap</a></Button>
         </div>
               </div>
               <div className="slide">
@@ -48,7 +48,7 @@ export default function SimpleSlider() {
               <div className="slide">
               <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
               <div className="button-row fade-in">
-          <Button variant="contained"><a href="#ancre">Eco-investments</a></Button>
+          <Button variant="contained"><a href="#ancre">Tech-investments</a></Button>
         </div>
               </div>
               <div className="slide">

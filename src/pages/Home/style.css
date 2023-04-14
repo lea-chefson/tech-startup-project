@@ -1,4 +1,9 @@
 
+
+
+
+/*hero section*/
+
 .hero {
     width: 100%;
     min-height: 100vh;
@@ -165,6 +170,14 @@ font-size:1,2rem;
   }
   
 
+
+
+
+
+/*text content sections*/
+
+
+
 .home_sections {
     width: 100%;
     min-height: 540px;
@@ -179,7 +192,6 @@ font-size:1,2rem;
     background-blend-mode:multiply;
     background-size:cover;
     background-repeat: repeat;
-   /* background-attachment: fixed;*/
 }
 
 .section_full{
@@ -225,9 +237,8 @@ font-size:1,2rem;
     color:#761c2f;
 }
 
-#gaiaswap_logo{
+#techswap_logo{
     width:400px;
-    box-shadow:5px 8px 8px 3px rgba(0,0,0,0.55);
     margin-left:5%;
     margin-right:5%;
     width:40%;
@@ -312,7 +323,7 @@ height:120px;
     width:85%;
 }
 
-.crypt_intro_1{
+.tech_intro_1{
     font-weight: bold;
     font-size:1.5rem;
     text-align: center;
@@ -347,22 +358,18 @@ height:120px;
     border-radius: 10px;
 
 }
-/*.main_text::after {
-    position: absolute;
-    top: 0;
-    border-left: 2px solid #fff;
-    height: 100%;
-    content: ""
-}*/
 
-/*.home_sections .main_text p {
-    /*width: 48%;
-    max-width: 48%;
-}
-*/
+
+
+
+
+
+/*accordion sections*/
+
 .css-15v22id-MuiAccordionDetails-root{
     padding:none
 }
+
 .section_sub{
     display:flex;
     flex-direction:row;
@@ -400,6 +407,14 @@ max-width:400px;
 .section3 img{
     width:60%;
 }
+
+
+
+
+
+
+
+/*partners section*/
 
 .section4{
     flex-direction: row-reverse;
@@ -448,19 +463,44 @@ max-width:400px;
     top: 0;
   }
   .slider .slide-track {
-    animation: scroll 60s linear infinite;
+    animation: scroll 10s linear infinite;
     display:flex;
-    width: calc(250px * 13);
+    width: calc(250px * 5);
   }
   .slider .slide {
     height: 100px;
     width: 200px;
-    margin-left:100px;
+    margin-left:200px;
   }
 
   .slider .slide img{
     margin-left:50px;
   }
+
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(-600px);
+    }
+    50% {
+      transform: translateX(calc(-200px*1));
+    }
+    100% {
+        transform: translateX(-600px);
+      } 
+  }
+
+
+
+
+
+
+
+
+  /*responsive*/
+
+
+
 
 @media screen and (max-width: 900px) {
 
@@ -572,15 +612,3 @@ max-width:400px;
 
 }
 
-
-@keyframes scroll {
-    0% {
-      transform: translateX(0);
-    }
-    50% {
-      transform: translateX(calc(-250px * 13));
-    }
-    100% {
-        transform: translateX(0);
-      }
-  }

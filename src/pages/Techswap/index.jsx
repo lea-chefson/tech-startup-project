@@ -3,7 +3,7 @@ import "./style.css";
 import Fade from "react-reveal";
 import money_bags from "../../assets/images/money_bags.png";
 
-const Gaiaswap = () => {
+const Techswap = () => {
   return (
     <main>
       <div className="gaiaswap">
@@ -78,4 +78,4 @@ const Gaiaswap = () => {
   );
 };
 
-export default Gaiaswap;
+export default Techswap;

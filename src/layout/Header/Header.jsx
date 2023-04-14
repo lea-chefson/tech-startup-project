@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import "./Header.css";
 // assets
 import logo from "../../assets/images/onlyLogo.png";
-import logo2 from "../../assets/images/onlyLogoBlue.png";
 import DropDown from "../../components/DropDown/DropDown";
 import { langDrpData } from "../../data/LangData";
 import { Link } from "react-router-dom";
@@ -34,9 +33,9 @@ const Header = () => {
         <div className="cs_container">
           <div className="cs_row header_row">
             <Link onClick={closeMenu} className="nav_logo" to="/">
-              <img src={scroll_header ? logo2 : logo} alt="" />
+              <img src={scroll_header ? logo : logo} alt="" />
               <span style={{ color: scroll_header ? "#387071" : "#d2e9e3" }}>
-                CRYPTECO
+                TECHAPP
               </span>
             </Link>
             <nav className={`menu_list ${menuOpen ? " menuOpened" : ""}`}>
@@ -50,12 +49,12 @@ const Header = () => {
                   <ul className="nested_menu">
                     <li>
                       <Link onClick={closeMenu} to="/business/gaiaswap">
-                        GaiaSwap
+                        TechSwap
                       </Link>
                     </li>
                     <li>
                       <Link onClick={closeMenu} to="/business/ecoInvestments">
-                        Eco-Investments
+                        Tech-Investments
                       </Link>
                     </li>
                   </ul>
