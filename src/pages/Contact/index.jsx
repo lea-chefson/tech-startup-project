@@ -75,7 +75,7 @@ const Contact = () => {
         <div className="cs_container blue">
           <div className="contact_form d_flex" id="form">
             <div className="cf_left">
-              <form method="post"  action="mailto:info@crypteco.io">
+              <form method="post" action="https://example.com/no-content" onsubmit="return false;">
                 <div className="cs_row">
                   <div className="form_group">
                     <label htmlFor="">First Name</label>
@@ -111,7 +111,7 @@ const Contact = () => {
                 />
                 <div>
                   <span>Email</span>
-                  <p>info@crypteco.io</p>
+                  <p>info@techapp.com</p>
                 </div>
               </div>
               <div className='invert'>
@@ -132,9 +132,10 @@ const Contact = () => {
                 <div>
                   <span>Address</span>
                   <p>
-                    Crypteco Company Limited, 999 Gaysorn Plaza, 5th Floor, Unit
-                    5B-1, Ploenchit Rd., Lumpini, Patumwan, Bangkok 10330,
-                    Thailand.
+                    Techapp company <br/> 456 Breezy Avenue, 9th Floor, Suite 9D<br/>
+                    Seabreeze City, Oceanic Islands<br/>
+                  Zip Code 12345<br/>
+                Country of Coral Blue
                   </p>
                 </div>
               </div>

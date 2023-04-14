@@ -220,13 +220,18 @@ textarea:focus {
 
 }
 
+
+
+
+/*icons column*/
+
 .social-icons2 {
     max-width: 980px;
     margin: 0 auto;
     display:flex;
     flex-direction: row;
     margin-top:48vh;
-    filter:saturate(0.5)
+    filter:saturate(0.5);
   }
   .iconz {
     float: right;
@@ -318,15 +323,15 @@ padding:20px;
 
   @media screen and (max-width: 900px){
     .social-icons2{
-        margin-top:2vh;
-        flex-direction:column;
+        margin-top:40vh;
+        flex-direction:row;
     }
     .iconz {
       width: 15px;
       height:15px;
       padding:12px;
       padding-bottom: 9%;
-      margin:10px;
+      margin:2.5vw;
     }
 
     .iconz a {
