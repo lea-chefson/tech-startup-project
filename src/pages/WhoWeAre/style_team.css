@@ -9,7 +9,7 @@ main{
 
 
 
-
+/*team section*/
 
 .team_wrap {
     margin: 70px auto;
@@ -39,27 +39,11 @@ section::before {
     background-attachment:fixed;
 }
 
-.partners {
-    width: 100%;
-    background: linear-gradient(45deg,#1b3333ee,#2F4455 ,#387071ee);
-}
 
 .section_title{
     color:#C1F6EC;
      position:relative;
      top:20px
-}
-
-.p_container {
-    position: relative;
-    min-height: 90px;
-}
-
-.p_container>img {
-    width: 100%;
-    height:50%;
-    border-left: none;
-    clip-path: polygon(0 0, 100% 0%, 100% 88%, 50% 100%, 0 88%);
 }
 
 .cs_container2{
@@ -70,42 +54,17 @@ section::before {
     padding:0% 1%;
 }
 
-.p_content {
-    width: 100px;
-    padding: 20px;
-    right: 140px;
-    bottom: -90px;
-    background: #5085a5;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    color: #fff;
-    text-align: center;
-    box-shadow: 0 0 18px rgba(0, 0, 0, 0.596);
-    border-radius: 8px;
+
+
+
+/*partners section (extra to slickers css*/
+
+
+.partners {
+    width: 100%;
+    background: linear-gradient(45deg,#1b3333ee,#2F4455 ,#387071ee);
 }
 
-.p_content h2 {
-    font-size: 2.2rem;
-}
-
-.p_content p {
-    margin-top: 10px;
-    opacity: 0.7;
-}
-
-.partners_wrap {
-    margin: 80px 0px 40px 30px;
-    padding-left:30px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    border-left:solid 2px white;
-    width:250%;
-}
 
 .text_partners{
     font-size:1.2rem;
@@ -132,29 +91,10 @@ section::before {
     padding: 12px 6px;
 }
 
-.img_box {
-    width: max-content;
-    max-width: 100%;
-    height: 100%;
-    box-shadow: 0 0 18px rgba(99, 99, 99, 0.274);
-    border:7px solid rgb(137, 68, 83);
-    border-radius:20px;
-    background-color: #f0f0f0;
-    overflow: hidden;
-    user-select: none;
-    padding: 9px 12px;
-}
 
-.img_box img {
-    width: 100%;
-    max-width: 150px;
-    transition: all 0.3s linear;
-    object-fit: cover;
-}
 
-.img_box:hover img {
-    transform: scale(1.04);
-}
+
+/*responsive*/
 
 
 @media screen and (max-width: 967px) {
@@ -165,19 +105,7 @@ section::before {
         justify-content: center;
         flex-wrap: wrap;
     }
-    .p_content {
-        width: 100%;
-        max-width: 85%;
-        padding: 20px;
-        right: 10%;
-        bottom: -90px;
-    }
-    .p_content h2 {
-        font-size: 1.4rem;
-    }
-    .p_content p {
-        opacity: 0.8;
-    }
+ 
     .partners_wrap {
         margin: 130px auto 30px auto;
     }

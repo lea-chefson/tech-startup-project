@@ -5,15 +5,7 @@ import partner2 from "../../assets/images/partners/partner2.png";
 import partner3 from "../../assets/images/partners/partner3.png";
 import partner4 from "../../assets/images/partners/partner4.png";
 import partner5 from "../../assets/images/partners/partner5.png";
-import partner6 from "../../assets/images/partners/partner6.png";
-import partner7 from "../../assets/images/partners/partner7.png";
-import partner8 from "../../assets/images/partners/partner8.png";
-import partner9 from "../../assets/images/partners/partner9.png";
-import partner10 from "../../assets/images/partners/partner10.png";
-import partner11 from "../../assets/images/partners/partner11.png";
-import partner12 from "../../assets/images/partners/partner12.png";
-import partner13 from "../../assets/images/partners/partner13.png";
-import partner14 from "../../assets/images/partners/partner14.png";
+
 // bg
 import teambg from "../../assets/images/teambg.jpg";
 
@@ -73,39 +65,39 @@ export default function PartnersSlider() {
               <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
               </div>
               <div className="slidep">
-              <img src={partner6} height="100" width="250" alt="" />
+              <img src={partner1} height="100" width="250" alt="" />
               <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
               </div>
               <div className="slidep">
-              <img src={partner7} height="100" width="250" alt="" />
+              <img src={partner2} height="100" width="250" alt="" />
               <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
               </div>
               <div className="slidep">
-              <img src={partner8} height="100" width="250" alt="" />
+              <img src={partner3} height="100" width="250" alt="" />
               <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
               </div>
               <div className="slidep">
-              <img src={partner9} height="100" width="250" alt="" />
+              <img src={partner4} height="100" width="250" alt="" />
               <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
               </div>
               <div className="slidep">
-              <img src={partner10} height="100" width="250" alt="" />
+              <img src={partner5} height="100" width="250" alt="" />
               <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
               </div>
               <div className="slidep">
-              <img src={partner11} height="100" width="250" alt="" />
+              <img src={partner1} height="100" width="250" alt="" />
               <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
               </div>
               <div className="slidep">
-              <img src={partner12} height="100" width="250" alt="" />
+              <img src={partner2} height="100" width="250" alt="" />
               <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
               </div>
               <div className="slidep">
-              <img src={partner13} height="100" width="250" alt="" />
+              <img src={partner3} height="100" width="250" alt="" />
               <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
               </div>
               <div className="slidep">
-              <img src={partner14} height="100" width="250" alt="" />
+              <img src={partner4} height="100" width="250" alt="" />
               <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
               </div>
           </Slider>

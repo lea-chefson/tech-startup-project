@@ -1,12 +1,12 @@
 import { Fade } from "react-reveal";
-import logo from "../assets/images/b_w_logo_t.png";
+import logo from "../assets/images/onlyLogo.png";
 
 const ComingSoon = ({ pageTitle }) => {
   return (
     <section className="coming_soon d_flex justify_content_center align_items_center flex_column">
       <div className="cs_container">
         <Fade duration={1200} delay={120}>
-          <img className="img_fluid" src={logo} alt="" />
+          <img className="img_fluid" src={logo} alt="" style={{height:"40vh"}}/>
         </Fade>
         <div>
           <br />

@@ -2,11 +2,11 @@ import "./style_team.css";
 /*import "@splidejs/splide/dist/css/splide.min.css";*/
 import PartnersSlider from "./Partners_slickers";
 import Fade from "react-reveal/Fade";
-import TeamCard3 from "../../components/Card/TeamCard/TeamCard3";
+import TeamCard from "../../components/Card/TeamCard/TeamCard";
 // team members images
-import team1 from "../../assets/images/team/team1.jpg";
-import team2 from "../../assets/images/team/team2.jpg";
-import team3 from "../../assets/images/team/team3.jpg";
+import team1 from "../../assets/images/team/team1.png";
+import team2 from "../../assets/images/team/team2.png";
+import team3 from "../../assets/images/team/team3.png";
 import default_team from "../../assets/images/team/default_team.jpg";
 // bg
 import teambg from "../../assets/images/teambg.jpg";
@@ -16,29 +16,13 @@ const WhoWeAre = () => {
   // team data
   const teamData = [
     {
-      name: `Nicky Purves`,
+      name: `Michael Brown`,
       img: team1,
-      role: `CEO & Founding Member`,
+      role: `Web Analytics Specialist`,
       desc: (
         <>
           <p>
-            A professional Civil Engineer in the Oil & Gas industry, Nick
-            switched careers when he witnessed first-hand the negative impacts
-            these projects were having on our planet.
-          </p>
-          <p>
-            The first act in this new direction was to establish an
-            Eco-international Kindergarten in Bangkok Thailand. It’s a great
-            place for budding Eco-warriors.
-          </p>
-          <p>
-            Nick then went on to establish a Renewable Energy Company in
-            Thailand serving the SEA region and played key role in the
-            development of over 100MWp of clean energy.
-          </p>
-          <p>
-            In 2021 the idea of Crypteco and GAIASWAP were developed with a view
-            to better serve climate action.
+          Michael has been working in web analytics for over 8 years. He has a deep understanding of website metrics and analytics tools, and enjoys finding insights that can help businesses improve their online performance. In his free time, Michael enjoys playing basketball and traveling.
           </p>
         </>
       ),
@@ -49,38 +33,13 @@ const WhoWeAre = () => {
       email: "/",
     },
     {
-      name: `Mark Briscombe`,
+      name: `Karen Patel`,
       img: team2,
-      role: `Advisor & FOunding Member`,
+      role: `Content Strategist`,
       desc: (
         <>
           <p>
-            Mark who holds a Masters in Physics has over 15 years work
-            experience across multiple industries. Mark's career began as a
-            consultant for Watson Wyatt (now Willis Towers Watson) working on
-            financial modelling for all their low/zero carbon energy projects.
-          </p>
-          <p>
-            In 2011 Mark learned of Bitcoin and by 2012 he was actively market
-            making for the emerging trading markets, primarily as an
-            arbitrageur. At some times, his trading would comprise of single
-            digit percentage of the global trading volume for Bitcoin.
-          </p>
-          <p>
-            Blockchain adoption has been Mark's primary goal ever since and in
-            early 2017, Mark worked closely with OmiseGo, the team behind
-            ‘Plasma’, which was an early scaling solution to expand the utility
-            and increase the adoption of Ethereum.
-          </p>
-          <p>
-            Later in 2017 he invented a new scaling solution for Ethereum,
-            called Nahmii and became COO of Nahmii AS, a Norwegian company
-            devoted to the widespread adoption of blockchain technology.
-          </p>
-          <p>
-            In 2022, Mark and the Nahmii team were awarded one of the most
-            important contracts in Blockchain history when the Norwegian state
-            bank engaged them for their CBCD Sandbox platform.
+          Karen has a background in marketing and communications, and has been working as a content strategist for the past 7 years. She has a passion for creating compelling and engaging content that connects with audiences and drives results. In her free time, Karen enjoys reading and trying out new recipes.
           </p>
         </>
       ),
@@ -91,30 +50,13 @@ const WhoWeAre = () => {
       email: "/",
     },
     {
-      name: `Yashovardhan Lohia `,
+      name: `Sarah Johnson`,
       img: team3,
-      role: `Advisor & Board of Director`,
+      role: `Lead Web Designer`,
       desc: (
         <>
           <p>
-            ‘Yash’ Lohia is the current Chairman of ESG Council at Indorama
-            Ventures PCL “IVL”, a global sustainable chemical company, with more
-            than 140 operating sites in 35 countries.
-          </p>
-          <p>
-            He has been recently inducted into The Forum of Young Global
-            Leaders, an initiative of the World Economic Forum, in the Class of
-            2022.
-          </p>
-          <p>
-            Yash was appointed as an Executive Director on IVL’s Board of
-            Directors, and he currently sits on the Sustainability and Risk
-            Management Committee.
-          </p>
-          <p>
-            Born in New Delhi, Yash is the elder son of Aloke Lohia, the Founder
-            and Group CEO of IVL. He holds a Bachelor of Engineering Business
-            Management from Warwick Business School in Warwickshire, UK.
+          Sarah has been designing websites for over 10 years. She's worked with a variety of clients, from small startups to large corporations, and has a passion for creating beautiful and functional designs that meet the needs of her clients. In her free time, Sarah enjoys hiking and exploring new places.
           </p>
         </>
       ),
@@ -125,15 +67,22 @@ const WhoWeAre = () => {
       email: "/",
     },
     {
-      name: `Michael Soon`,
+      name: `John Kim`,
       img: default_team,
-      role: `CMO & Board of Director`,
+      role: ` Senior Web Developer`,
       desc: null,
       fb: `/`,
       insta: `/`,
       twitter: `/`,
       linkedin: `/`,
       email: "/",
+      desc: (
+        <>
+          <p>
+          John has been developing websites and web applications for over 15 years. He's an expert in a variety of programming languages and frameworks, and has a passion for creating efficient and scalable web solutions. In his free time, John enjoys playing guitar and listening to music.
+          </p>
+        </>
+      ),
     },
   ];
 
@@ -150,7 +99,7 @@ const WhoWeAre = () => {
             <div className="cs_container2" >
               <div className="team_wrap">
            {teamData?.map((v, i) => (
-              <TeamCard3
+              <TeamCard
                 key={i}
                 name={v.name}
                 img={v?.img}
