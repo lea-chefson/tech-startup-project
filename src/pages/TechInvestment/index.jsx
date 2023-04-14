@@ -1,51 +1,42 @@
 import React from "react";
 import "./style.css";
 import Fade from "react-reveal";
-const EcoInvestment = () => {
+const TechInvestment = () => {
   return (
     <>
-      <div className="ecoinvestment">
+      <div className="techinvestment">
         <div className="img_content">
           <div className="overlay"></div>
         </div>
         <div className="g_content">
           <Fade top duration={1000} delay={1000}>
-            <h2>Eco-Investments</h2>
+            <h2>TechInvestments</h2>
           </Fade>
           <Fade bottom duration={1050} delay={1050}>
             <p>
-              Crypteco are committed to supporting communities and our ecosystem
-              through our Eco-Investment agenda whereby we provide two clear
-              avenues for investment into sustainability companies and
-              initiates:
+            At TECHAPP, we are dedicated to providing innovative solutions and tools for businesses and organizations to streamline their workflow and boost productivity in the digital age. With our user-friendly interface and cutting-edge technology, we help businesses of all sizes achieve their goals and stay ahead of the competition.
             </p>
           </Fade>
           <ul>
             <Fade bottom duration={1050} delay={1050}>
               <li>
-                1. We will commit a % of our Profits directly to sustainable
-                initiatives; and,
+              1. Our pizzeria uses only the freshest ingredients to make our delicious pies; and,
               </li>
             </Fade>
             <Fade bottom duration={1050} delay={1050}>
               <li>
-                2. We can provide avenues for Companies, Organizations and
-                Investors to invest into sustainable initiatives.
+              2. We offer a variety of toppings to suit every taste, from classic pepperoni to gourmet options like prosciutto and arugula.
               </li>
             </Fade>
           </ul>
           <Fade bottom duration={1050} delay={1050}>
             <p>
-              Crypteco encourage those seeking investment into their
-              sustainability initiatives to contact our team to enquire about we
-              can provide.
+            At our pizzeria, we're passionate about making the best pizza possible. From our homemade sauce to our hand-tossed crust, we take pride in every aspect of the pizza-making process.
             </p>
           </Fade>
           <Fade bottom duration={1050} delay={1050}>
             <p>
-              We are interested in all ideas that serve to support the
-              sustainability initiates and it would be our pleasure to discuss
-              these at any time.
+            We believe that pizza should be a fun and delicious experience for everyone, which is why we offer a range of toppings to suit all preferences. Whether you prefer a classic margherita or something a little more adventurous, we've got you covered.
             </p>
           </Fade>
         </div>
@@ -54,4 +45,4 @@ const EcoInvestment = () => {
   );
 };
 
-export default EcoInvestment;
+export default TechInvestment;

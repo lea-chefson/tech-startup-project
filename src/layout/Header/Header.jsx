@@ -42,18 +42,18 @@ const Header = () => {
               <img src={logo} alt="" />
               <ul>
                 <li>
-                  <Link onClick={closeMenu} to="/business/gaiaswap">
+                  <Link onClick={closeMenu} to="/business/techswap">
                     Our Business {" "}
                     <i className="fa fa-chevron-down"></i>
                   </Link>
                   <ul className="nested_menu">
                     <li>
-                      <Link onClick={closeMenu} to="/business/gaiaswap">
+                      <Link onClick={closeMenu} to="/business/techswap">
                         TechSwap
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={closeMenu} to="/business/ecoInvestments">
+                      <Link onClick={closeMenu} to="/business/techInvestments">
                         Tech-Investments
                       </Link>
                     </li>
