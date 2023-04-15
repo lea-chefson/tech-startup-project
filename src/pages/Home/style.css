@@ -465,28 +465,29 @@ max-width:400px;
   .slider .slide-track {
     animation: scroll 10s linear infinite;
     display:flex;
-    width: calc(250px * 5);
   }
   .slider .slide {
     height: 100px;
-    width: 200px;
+    flex:1;
     margin-left:200px;
+
   }
 
   .slider .slide img{
-    margin-left:50px;
+  padding:5px 40px;
+  margin: auto 50px
   }
 
 
   @keyframes scroll {
     0% {
-      transform: translateX(-600px);
+      transform: translateX(-10vw);
     }
     50% {
-      transform: translateX(calc(-200px*1));
+      transform: translateX(calc(10vw));
     }
     100% {
-        transform: translateX(-600px);
+        transform: translateX(-10vw);
       } 
   }
 
