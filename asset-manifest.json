@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tech-startup-project/static/css/main.a510336c.css",
-    "main.js": "/tech-startup-project/static/js/main.71bc23d9.js",
+    "main.css": "/tech-startup-project/static/css/main.d491c2f3.css",
+    "main.js": "/tech-startup-project/static/js/main.a3cf07b7.js",
     "static/media/mainVideo.mp4": "/tech-startup-project/static/media/mainVideo.a13884c69cc80d989d26.mp4",
     "static/media/section6.png": "/tech-startup-project/static/media/section6.c7c6d4f3c230edae9176.png",
     "static/media/section5.png": "/tech-startup-project/static/media/section5.c182fba3a6c33fe46c07.png",
@@ -12,8 +12,8 @@
     "static/media/team3.png": "/tech-startup-project/static/media/team3.fa340c971a267fc00aca.png",
     "static/media/team2.png": "/tech-startup-project/static/media/team2.2244ae111c47267b11f9.png",
     "static/media/team1.png": "/tech-startup-project/static/media/team1.6882738c478d793f131b.png",
-    "static/media/logo.png": "/tech-startup-project/static/media/logo.4cf125451e066404c458.png",
     "static/media/onlyLogo.png": "/tech-startup-project/static/media/onlyLogo.41cfc8c17ba6e8c1f42a.png",
+    "static/media/logo.png": "/tech-startup-project/static/media/logo.2fbcbadaf32d0c3ab0f7.png",
     "static/media/partner4.png": "/tech-startup-project/static/media/partner4.70fd9c90e39106ef2bf5.png",
     "static/media/teambg.jpg": "/tech-startup-project/static/media/teambg.7645df03fdddf17e5472.jpg",
     "static/media/partner1.png": "/tech-startup-project/static/media/partner1.47b7b508bca204b44fd0.png",
@@ -28,11 +28,11 @@
     "static/media/slick.ttf": "/tech-startup-project/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/tech-startup-project/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/tech-startup-project/index.html",
-    "main.a510336c.css.map": "/tech-startup-project/static/css/main.a510336c.css.map",
-    "main.71bc23d9.js.map": "/tech-startup-project/static/js/main.71bc23d9.js.map"
+    "main.d491c2f3.css.map": "/tech-startup-project/static/css/main.d491c2f3.css.map",
+    "main.a3cf07b7.js.map": "/tech-startup-project/static/js/main.a3cf07b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.a510336c.css",
-    "static/js/main.71bc23d9.js"
+    "static/css/main.d491c2f3.css",
+    "static/js/main.a3cf07b7.js"
   ]
 }
