@@ -9,7 +9,10 @@ const Hero = (props) => {
   return (
     <>
       <div className="overlay">
-        <img src={logo} alt="" className="scale-in-center"/>
+        <div className="scale-in-center">
+        <img src={logo} alt="" />
+        <h1>TECHAPP</h1>
+        </div>
         <div className="div_slider_hero">
           <SimpleSlider className="slider_hero"/>
         </div>
